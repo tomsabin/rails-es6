@@ -10,6 +10,10 @@ gem "sprockets-commoner"
 group :development, :test do
   gem "pry"
   gem "pry-byebug"
+  gem "teaspoon"
+  gem "teaspoon-bundle"
+  gem "teaspoon-mocha"
+  gem "coffee-script"
 end
 
 group :development do
