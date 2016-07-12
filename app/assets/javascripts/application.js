@@ -9,8 +9,15 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//
-//= require_tree .
+
+import React from "react"
+import { render } from "react-dom"
+import Welcome from "./components/Welcome"
 
 let name = "Tom"
 console.log(`Hello from ${name}`)
+
+render(
+  <Welcome name={name} />,
+  document.getElementById("root")
+)
