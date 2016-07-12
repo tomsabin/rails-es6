@@ -1,24 +1,5 @@
-# README
+# Rails 5 with ES6
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Using [Sprockets::Commoner](https://github.com/Shopify/sprockets-commoner) we can easily set up ES6 using Babel transformations in Sprockets.
+- This allows us the use npm packages without the need for Browserify or Webpack.
+- Follow the [commit history](https://github.com/tomsabin/rails-es6/commits/master) for set up. Clone and run locally to see it in action yourself.
