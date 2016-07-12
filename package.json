@@ -1,0 +1,11 @@
+{
+  "name": "rails-es6",
+  "version": "1.0.0",
+  "description": "Example Rails application with ES6 using sprockets-commoner gem",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0"
+  }
+}

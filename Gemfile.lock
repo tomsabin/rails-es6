@@ -114,6 +114,7 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
+    schmooze (0.1.6)
     slop (3.6.0)
     spring (1.7.2)
     spring-watcher-listen (2.0.0)
@@ -122,6 +123,9 @@ GEM
     sprockets (3.6.3)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
+    sprockets-commoner (0.2.7)
+      schmooze (~> 0.1.6)
+      sprockets (>= 3, < 4)
     sprockets-rails (3.1.1)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
@@ -149,6 +153,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
+  sprockets-commoner
   sqlite3
   uglifier (>= 1.3.0)
 

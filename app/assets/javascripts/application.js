@@ -11,3 +11,6 @@
 // about supported directives.
 //
 //= require_tree .
+
+let name = "Tom"
+console.log(`Hello from ${name}`)
